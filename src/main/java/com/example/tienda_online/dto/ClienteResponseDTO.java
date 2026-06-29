@@ -1,0 +1,11 @@
+package com.example.tienda_online.dto;
+
+import lombok.Builder;
+
+@Builder
+public record ClienteResponseDTO(
+        Long id_cliente,
+        String nombre,
+        String correo
+) {
+}
